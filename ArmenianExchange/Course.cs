@@ -24,10 +24,10 @@ namespace ArmenianExchange
 
         }
 
-        public Course(double usdbuy = 483.10, double usdsell = 485.60,
-                      double rubbuy = 8.09, double rubsell = 8.40,
-                      double eurbuy = 576.50, double eursell = 570,
-                      string currency = "ALL")
+        protected Course(double usdbuy = 483.10, double usdsell = 485.60,
+                         double rubbuy = 8.09, double rubsell = 8.40,
+                         double eurbuy = 576.50, double eursell = 570,
+                         string currency = "ALL")
         {
             AddListCourse(usdbuy, usdsell, rubbuy, rubsell, eurbuy, eursell, currency);
         }
