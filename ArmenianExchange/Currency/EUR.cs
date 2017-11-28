@@ -6,7 +6,7 @@ namespace ArmenianExchange
         public EUR()
         { }
 
-        public EUR(double eurbuy, double eursell) : base(eurbuy: eurbuy, eursell: eursell)
+        public EUR(double eurbuy, double eursell) : base(eurbuy: eurbuy, eursell: eursell, currency: "EUR")
         { }
 
         public double ToAmd(double value)

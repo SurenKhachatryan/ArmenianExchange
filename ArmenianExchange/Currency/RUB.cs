@@ -6,7 +6,7 @@ namespace ArmenianExchange
         public RUB()
         { }
 
-        public RUB(double rubbuy, double rubsell) : base(rubbuy: rubbuy, rubsell: rubsell)
+        public RUB(double rubbuy, double rubsell) : base(rubbuy: rubbuy, rubsell: rubsell, currency: "RUB")
         { }
 
         public double ToAmd(double value)

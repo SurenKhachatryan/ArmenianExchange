@@ -1,13 +1,12 @@
 ﻿
 namespace ArmenianExchange
 {
-
     class USD : Course, IAMD, IEUR, IRUB
     {
         public USD()
         { }
 
-        public USD(double usdbuy, double usdsell) : base(usdbuy: usdbuy, usdsell: usdsell)
+        public USD(double usdbuy, double usdsell) : base(usdbuy: usdbuy, usdsell: usdsell, currency: "USD")
         { }
 
         public double ToAmd(double value)
