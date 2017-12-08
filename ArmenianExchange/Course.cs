@@ -16,7 +16,7 @@ namespace ArmenianExchange
 
         static Course()
         {
-            AddListCourse(483.50, 486.50, 8.10, 8.35, 566.10, 574.10, "ALL");
+            AddListCourse(483.50, 486.50, 8.10, 8.35, 566.10, 574.11, "ALL");
         }
 
         public Course()
