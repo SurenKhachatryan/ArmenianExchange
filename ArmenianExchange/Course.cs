@@ -30,8 +30,8 @@ namespace ArmenianExchange
                       eurbuy, eursell, "ALL")
         {
         }
-
-        protected Course(double usdbuy = 483.50, double usdsell = 486.50,
+        
+        protected Course(double usdbuy = 483.40, double usdsell = 486.50,
                          double rubbuy = 8.10, double rubsell = 8.35,
                          double eurbuy = 566.10, double eursell = 574.10,
                          string currency = "ALL")
