@@ -16,18 +16,25 @@ namespace ArmenianExchange
 
         static Course()
         {
-            AddListCourse(483.10, 485.60, 8.09, 8.40, 576.50, 570, "ALL");
+            AddListCourse(483.50, 486.50, 8.10, 8.35, 566.10, 574.10, "ALL");
         }
 
         public Course()
         {
 
         }
+        public Course(double usdbuy, double usdsell,
+                      double rubbuy, double rubsell,
+                      double eurbuy, double eursell) :
+                 this(usdbuy, usdsell, rubbuy, rubsell,
+                      eurbuy, eursell, "ALL")
+        {
+        }
 
-        public Course(double usdbuy = 483.10, double usdsell = 485.60,
-                      double rubbuy = 8.09, double rubsell = 8.40,
-                      double eurbuy = 576.50, double eursell = 570,
-                      string currency = "ALL")
+        protected Course(double usdbuy = 483.50, double usdsell = 486.50,
+                         double rubbuy = 8.10, double rubsell = 8.35,
+                         double eurbuy = 566.10, double eursell = 574.10,
+                         string currency = "ALL")
         {
             AddListCourse(usdbuy, usdsell, rubbuy, rubsell, eurbuy, eursell, currency);
         }

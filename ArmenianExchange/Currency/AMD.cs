@@ -5,15 +5,15 @@ namespace ArmenianExchange
     {
         public double ToEur(double value)
         {
-            return value / eurbuy;
+            return value / eursell;
         }
         public double ToRub(double value)
         {
-            return value / rubbuy;
+            return value / rubsell;
         }
         public double ToUsd(double value)
         {
-            return value / usdbuy;
+            return value / usdsell;
         }
     }
 }
